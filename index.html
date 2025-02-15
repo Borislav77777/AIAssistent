@@ -51,6 +51,10 @@
         button:hover {
             background-color: #0056b3;
         }
+        #loading-message {
+            background-color: #f0f0f0;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -64,7 +68,7 @@
 
     <script>
         const API_URL = "https://api-inference.huggingface.co/models/tinkoff-ai/ruDialoGPT-medium";
-        const API_KEY = "YOUR_HUGGING_FACE_API_KEY"; // Замените на ваш API ключ
+        const API_KEY = "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";
 
         async function sendMessage() {
             const input = document.getElementById('user-input');
